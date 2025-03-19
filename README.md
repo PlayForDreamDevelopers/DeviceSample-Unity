@@ -31,8 +31,10 @@ The PFDM Enterprise Device Unity SDK provides enterprise users with the ability 
 
 ## Samples
 
--   [Device](https://github.com/PlayForDreamDevelopers/DeviceSample-Unity/tree/main/Assets/Device): Displays the device information that can be queried and controls the device's volume/brightness
-    ![2025 03 09_141726030](https://github.com/user-attachments/assets/c1f3adf3-e354-43e3-907d-788d30ee435f)
+### Query device information
+
+- Displays the device information that can be queried and controls the device's volume/brightness
+  ![2025 03 09_141726030](https://github.com/user-attachments/assets/c1f3adf3-e354-43e3-907d-788d30ee435f)
 
 ## Requirements
 

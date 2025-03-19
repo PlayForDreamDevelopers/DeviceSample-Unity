@@ -33,8 +33,10 @@ PFDM 企业版 Device Unity SDK 提供了企业版用户修改/查看设备信�
 
 ## 示例
 
--   [Device](https://github.com/PlayForDreamDevelopers/DeviceSample-Unity/tree/main/Assets/Device): 展现所能查询到的设备信息，及控制设备的音量/亮度
-    ![2025 03 09_141726030](https://github.com/user-attachments/assets/c1f3adf3-e354-43e3-907d-788d30ee435f)
+### 查询设备信息
+
+- 展现所能查询到的设备信息，及控制设备的音量/亮度
+  ![2025 03 09_141726030](https://github.com/user-attachments/assets/c1f3adf3-e354-43e3-907d-788d30ee435f)
 
 ## 要求
 
