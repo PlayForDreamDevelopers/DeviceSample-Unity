@@ -15,7 +15,7 @@
     <a href="https://github.com/PlayForDreamDevelopers/DeviceSample-Unity/blob/main/README.zh.md"><strong>查看文档 »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/PlayForDreamDevelopers/DeviceSample-Unity">查看示例</a>
+    <a href="https://github.com/PlayForDreamDevelopers/DeviceSample-Unity#示例">查看示例</a>
     &middot;
     <a href="https://github.com/PlayForDreamDevelopers/DeviceSample-Unity/issues/new?labels=bug">Bug 报告</a>
     &middot;
@@ -30,6 +30,8 @@
 ## 关于项目
 
 PFDM 企业版 Device Unity SDK 提供了企业版用户修改/查看设备信息的功能。本项目提供了几个最小示例，以说明 SDK API 的使用方法：
+
+## 示例
 
 -   [Device](https://github.com/PlayForDreamDevelopers/DeviceSample-Unity/tree/main/Assets/Device): 展现所能查询到的设备信息，及控制设备的音量/亮度
     ![2025 03 09_141726030](https://github.com/user-attachments/assets/c1f3adf3-e354-43e3-907d-788d30ee435f)

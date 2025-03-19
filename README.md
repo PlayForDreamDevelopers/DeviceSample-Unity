@@ -13,7 +13,7 @@
         <a href="https://github.com/PlayForDreamDevelopers/DeviceSample-Unity/blob/main/README.md"><strong>View Documentation »</strong></a>
         <br />
         <br />
-        <a href="https://github.com/PlayForDreamDevelopers/DeviceSample-Unity">View Samples</a>
+        <a href="https://github.com/PlayForDreamDevelopers/DeviceSample-Unity#Samples">View Samples</a>
         &middot;
         <a href="https://github.com/PlayForDreamDevelopers/DeviceSample-Unity/issues/new?labels=bug">Report Bug</a>
         &middot;
@@ -28,6 +28,8 @@
 ## About The Project
 
 The PFDM Enterprise Device Unity SDK provides enterprise users with the ability to modify/view device information. This project provides several minimal examples to demonstrate the usage of the SDK API:
+
+## Samples
 
 -   [Device](https://github.com/PlayForDreamDevelopers/DeviceSample-Unity/tree/main/Assets/Device): Displays the device information that can be queried and controls the device's volume/brightness
     ![2025 03 09_141726030](https://github.com/user-attachments/assets/c1f3adf3-e354-43e3-907d-788d30ee435f)
