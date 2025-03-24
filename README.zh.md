@@ -17,11 +17,11 @@
     <br />
     <a href="https://github.com/PlayForDreamDevelopers/DeviceSample-Unity#示例">查看示例</a>
     &middot;
-    <a href="https://github.com/PlayForDreamDevelopers/DeviceSample-Unity/issues/ntemplate=bug_report.yml">报告错误</a>
+    <a href="https://github.com/PlayForDreamDevelopers/DeviceSample-Unity/issues/new?template=bug_report.yml">报告错误</a>
     &middot;
-    <a href="https://github.com/PlayForDreamDevelopers/DeviceSample-Unity/issues/new?template=feature_request.ymlt">请求功能</a>
+    <a href="https://github.com/PlayForDreamDevelopers/DeviceSample-Unity/issues/new?template=feature_request.yml">请求功能</a>
     &middot;
-    <a href="https://github.com/PlayForDreamDevelopers/DeviceSample-Unity/issues/ntemplate=documentation_update.yml">改进文档</a>
+    <a href="https://github.com/PlayForDreamDevelopers/DeviceSample-Unity/issues/new?template=documentation_update.yml">改进文档</a>
     
   </p>
 </div>
