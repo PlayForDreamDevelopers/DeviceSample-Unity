@@ -17,9 +17,12 @@
     <br />
     <a href="https://github.com/PlayForDreamDevelopers/DeviceSample-Unity#示例">查看示例</a>
     &middot;
-    <a href="https://github.com/PlayForDreamDevelopers/DeviceSample-Unity/issues/new?labels=bug">Bug 报告</a>
+    <a href="https://github.com/PlayForDreamDevelopers/DeviceSample-Unity/issues/ntemplate=bug_report.yml">报告错误</a>
     &middot;
-    <a href="https://github.com/PlayForDreamDevelopers/DeviceSample-Unity/issues/new?labels=enhancement">需求要求</a>
+    <a href="https://github.com/PlayForDreamDevelopers/DeviceSample-Unity/issues/new?template=feature_request.ymlt">请求功能</a>
+    &middot;
+    <a href="https://github.com/PlayForDreamDevelopers/DeviceSample-Unity/issues/ntemplate=documentation_update.yml">改进文档</a>
+    
   </p>
 </div>
 
