@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Device/Device.unity
     guid: f3a86d8c0ab5afb4586fb76d4e640541
+  - enabled: 1
+    path: Assets/Sample-DeviceInfo/DeviceInfo.unity
+    guid: 78771a8e30c0e1e41a030440b4ef4879
   m_configObjects:
     YVR.Core.XR.YVRXRSettings: {fileID: 11400000, guid: 99e8d3f9b5917d545874c92406020ee8, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a73bce26cd951c94e968f89728f2a1be, type: 2}

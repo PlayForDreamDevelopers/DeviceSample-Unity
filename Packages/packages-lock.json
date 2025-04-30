@@ -276,11 +276,10 @@
       "url": "https://packages.unity.com"
     },
     "com.yvr.android-device.core": {
-      "version": "https://github.com/PlayForDreamDevelopers/com.yvr.android-device.core-mirror.git?path=/com.yvr.android-device.core#version_1.21.2",
+      "version": "file:D:/Project-GitLab/sdk-androiddevice-core/com.yvr.android-device.core",
       "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "b9e115408a73fdf1b8b5a5d2ca4f377f481b793c"
+      "source": "local",
+      "dependencies": {}
     },
     "com.yvr.core": {
       "version": "https://github.com/PlayForDreamDevelopers/com.yvr.core-mirror.git?path=/com.yvr.core#version_1.26.3",
@@ -293,11 +292,10 @@
       "hash": "6354dc4faea4f4da59756a4d376f098334c3ae15"
     },
     "com.yvr.enterprise": {
-      "version": "https://github.com/PlayForDreamDevelopers/com.yvr.enterprise-mirror.git?path=/com.yvr.enterprise#version_0.0.6",
+      "version": "file:D:/Project-my/sdk-enterprise/com.yvr.enterprise",
       "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "153a5c6eefe4316c3939f4e3d7e97b8ae4a6ad2f"
+      "source": "local",
+      "dependencies": {}
     },
     "com.yvr.interaction": {
       "version": "https://github.com/PlayForDreamDevelopers/com.yvr.interaction-mirror.git?path=/com.yvr.interaction#version_0.6.28",
