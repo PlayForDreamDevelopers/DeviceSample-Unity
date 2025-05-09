@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using YVR.Core;
 using YVR.Enterprise.Device;
 
 public class AppControl : MonoBehaviour
@@ -77,6 +78,7 @@ public class AppControl : MonoBehaviour
     
     void Start()
     {
+        YVRManager.instance.hmdManager.SetPassthrough(true);
         RefreshAllPackages();
         refreshAllPackagesButton.onClick.AddListener(RefreshAllPackages);
         

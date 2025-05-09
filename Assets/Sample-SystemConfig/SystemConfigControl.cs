@@ -2,6 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
+using YVR.Core;
 using YVR.Enterprise.Device;
 
 public class SystemConfigControl : MonoBehaviour
@@ -81,6 +82,7 @@ public class SystemConfigControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        YVRManager.instance.hmdManager.SetPassthrough(true);
         //part 1
         nowScreenOffTimeOutResult.text = SystemConfigurationMgr.instance.screenOffTimeOut.ToString();
         setScreenOffTimeOutApply.onClick.AddListener(ScreenOffTimeOutApply);

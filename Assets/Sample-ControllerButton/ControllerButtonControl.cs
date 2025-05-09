@@ -4,6 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using YVR.Core;
 using YVR.Enterprise.Device;
 using YVR.Interaction.Runtime;
 
@@ -16,6 +17,7 @@ public class ControllerButtonControl : MonoBehaviour
     private YVRInputActions m_InputActions;
     private void Start()
     {
+        YVRManager.instance.hmdManager.SetPassthrough(true);
         KeyAddListener();
         isDebugTriggerInfo.onValueChanged.AddListener((value) =>
         {

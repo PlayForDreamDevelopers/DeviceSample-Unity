@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using YVR.Core;
 using YVR.Enterprise.Device;
 using YVR.Enterprise.Device.KioskModeSettingMgr;
 using Task = System.Threading.Tasks.Task;
@@ -18,8 +19,9 @@ public class KioskModeSettingControl : MonoBehaviour
     public Toggle appCloseAbility;
     public Toggle configurationPermission;
 
-    public void Update()
+    public void Start()
     {
+        YVRManager.instance.hmdManager.SetPassthrough(true);
         setStartUpAppButton.onClick.AddListener(SetStartUpApp);
         getStartUpAppButton.onClick.AddListener(GetStartUpApp);
         UpdateInfo();
@@ -35,12 +37,12 @@ public class KioskModeSettingControl : MonoBehaviour
 
     private  void ChangeConfigurationPermission(bool value)
     {
-            KioskModeSettingMgr.instance.configurationPermission = value;
+        KioskModeSettingMgr.instance.configurationPermission = value;
     }
 
     private  void ChangeAppCloseAbility(bool value)
     {
-            KioskModeSettingMgr.instance.appCloseAbility = value;
+        KioskModeSettingMgr.instance.appCloseAbility = value;
     }
 
     private  void SetStartUpApp()

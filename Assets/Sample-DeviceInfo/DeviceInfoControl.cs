@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using YVR.Core;
 using YVR.Enterprise.Device;
 
 namespace YVR.Enterprise.Device.Sample.DeviceInfo
@@ -52,6 +53,7 @@ namespace YVR.Enterprise.Device.Sample.DeviceInfo
         // Start is called before the first frame update
         void Start()
         {
+            YVRManager.instance.hmdManager.SetPassthrough(true);
             #region part1
             deviceSnResult.text = DeviceInfoMgr.instance.deviceSn;
             deviceModelResult.text = DeviceInfoMgr.instance.deviceModel;

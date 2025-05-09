@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using YVR.Core;
 using YVR.Enterprise.Device.SystemUpgradeControlMgr;
 
 public class SystemUpgradeControl : MonoBehaviour
@@ -13,6 +14,7 @@ public class SystemUpgradeControl : MonoBehaviour
 
     private void Start()
     {
+        YVRManager.instance.hmdManager.SetPassthrough(true);
         isSystemUpgradeEnableResult.text = SystemUpgradeControlMgr.instance.isSystemUpgradeEnable ? "Enabled" : "Disabled";
         setSystemUpgradeStateToggle.onValueChanged.AddListener(SetSystemUpgradeState);
     }
