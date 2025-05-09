@@ -17,13 +17,13 @@ namespace YVR.Enterprise.Device.Sample
         {
             YVRManager.instance.hmdManager.SetPassthrough(true);
 
-            BrightnessControl.value = DeviceMgr.instance.brightness / (float) 255;
+            BrightnessControl.value = SystemConfigurationMgr.instance.brightness / (float) 255;
             BrightnessControl.onValueChanged.AddListener(value =>
             {
                 int toSetBrightness = (int) (255 * value);
-                if (toSetBrightness == DeviceMgr.instance.brightness) return;
+                if (toSetBrightness == SystemConfigurationMgr.instance.brightness) return;
 
-                DeviceMgr.instance.brightness = toSetBrightness;
+                SystemConfigurationMgr.instance.brightness = toSetBrightness;
             });
 
             BrightnessRestrictionToggle.isOn = DeviceMgr.instance.brightnessAdjustmentRestricted;
@@ -35,7 +35,7 @@ namespace YVR.Enterprise.Device.Sample
 
         private void Update()
         {
-            int currentBrightness = DeviceMgr.instance.brightness;
+            int currentBrightness = SystemConfigurationMgr.instance.brightness;
             int maxBrightnessValue = 255;
             currentBrightnessText.text = $"Current Brightness: <b> {currentBrightness} <b>";
             maxBrightnessText.text = $"Max Brightness: <b> {maxBrightnessValue} <b>";

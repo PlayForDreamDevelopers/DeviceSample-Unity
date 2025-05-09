@@ -9,8 +9,32 @@ EditorBuildSettings:
     path: Assets/Device/Device.unity
     guid: f3a86d8c0ab5afb4586fb76d4e640541
   - enabled: 1
+    path: Assets/Scripts/Entrance.unity
+    guid: 231f11e2ebdf69c4bbc0e5cb5cd0dfe8
+  - enabled: 1
     path: Assets/Sample-DeviceInfo/DeviceInfo.unity
     guid: 78771a8e30c0e1e41a030440b4ef4879
+  - enabled: 1
+    path: Assets/Sample-SystemConfig/SystemConfig.unity
+    guid: 51db1645433837a46a76e0e2d5cfa9d4
+  - enabled: 1
+    path: Assets/Sample-DeviceControl/DeviceControl.unity
+    guid: 2ca6d3571b767c5488c668dd6723af67
+  - enabled: 1
+    path: Assets/Sample-App/App.unity
+    guid: 1ccc86c578c40324e830ca231fbb38ba
+  - enabled: 1
+    path: Assets/Sample-ScreenRecording/ScreenReCording.unity
+    guid: 8318db8e69f9d2542b872ba7c435b665
+  - enabled: 1
+    path: Assets/Sample-ControllerButton/ControllerButton.unity
+    guid: 611629535393cf34bb1221ef29c3e3ad
+  - enabled: 1
+    path: Assets/Sample-SystemUpgradeControl/SystemUpgradeControl.unity
+    guid: abcacaa9768cabf42b501ba00ada5782
+  - enabled: 1
+    path: Assets/Sample-KioskModeSetting/KioskModeSetting.unity
+    guid: 5778113fc372597498a303dd4c094a49
   m_configObjects:
     YVR.Core.XR.YVRXRSettings: {fileID: 11400000, guid: 99e8d3f9b5917d545874c92406020ee8, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a73bce26cd951c94e968f89728f2a1be, type: 2}

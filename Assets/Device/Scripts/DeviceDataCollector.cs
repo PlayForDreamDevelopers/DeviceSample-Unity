@@ -16,11 +16,11 @@ namespace YVR.Enterprise.Device.Sample
         {
             YVRManager.instance.hmdManager.SetPassthrough(true);
 
-            deviceModelText.text = $"Device model: <b> {DeviceMgr.instance.deviceModel} <b>";
-            deviceSnText.text = $"Device sn: <b> {DeviceMgr.instance.deviceSn} <b>";
-            osVersionText.text = $"OS version: <b> {DeviceMgr.instance.osVersion} <b>";
-            wifiMacText.text = $"Wifi mac: <b> {DeviceMgr.instance.wifiMac} <b>";
-            btMacText.text = $"BT mac: <b> {DeviceMgr.instance.btMac} <b>";
+            deviceModelText.text = $"Device model: <b> {DeviceInfoMgr.instance.deviceModel} <b>";
+            deviceSnText.text = $"Device sn: <b> {DeviceInfoMgr.instance.deviceSn} <b>";
+            osVersionText.text = $"OS version: <b> {DeviceInfoMgr.instance.osVersion} <b>";
+            wifiMacText.text = $"Wifi mac: <b> {DeviceInfoMgr.instance.wifiMac} <b>";
+            btMacText.text = $"BT mac: <b> {DeviceInfoMgr.instance.btMac} <b>";
         }
     }
 }

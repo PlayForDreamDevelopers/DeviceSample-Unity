@@ -17,13 +17,13 @@ namespace YVR.Enterprise.Device.Sample
         {
             YVRManager.instance.hmdManager.SetPassthrough(true);
 
-            volumeControl.value = DeviceMgr.instance.volume / (float) DeviceMgr.instance.maxVolume;
+            volumeControl.value = SystemConfigurationMgr.instance.volume / (float) SystemConfigurationMgr.instance.maxVolume;
             volumeControl.onValueChanged.AddListener(value =>
             {
-                int toSetVolume = (int) (DeviceMgr.instance.maxVolume * value);
-                if (toSetVolume == DeviceMgr.instance.volume) return;
+                int toSetVolume = (int) (SystemConfigurationMgr.instance.maxVolume * value);
+                if (toSetVolume == SystemConfigurationMgr.instance.volume) return;
 
-                DeviceMgr.instance.volume = toSetVolume;
+                SystemConfigurationMgr.instance.volume = toSetVolume;
             });
 
             volumeRestrictionToggle.isOn = DeviceMgr.instance.volumeAdjustmentRestricted;
@@ -35,8 +35,8 @@ namespace YVR.Enterprise.Device.Sample
 
         private void Update()
         {
-            int currentVolume = DeviceMgr.instance.volume;
-            int maxVolumeValue = DeviceMgr.instance.maxVolume;
+            int currentVolume = SystemConfigurationMgr.instance.volume;
+            int maxVolumeValue = SystemConfigurationMgr.instance.maxVolume;
             currentVolumeText.text = $"Current volume: <b> {currentVolume} <b>";
             maxVolumeText.text = $"Max volume: <b> {maxVolumeValue} <b>";
 
