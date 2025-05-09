@@ -1,0 +1,25 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+using YVR.Enterprise.Device.SystemUpgradeControlMgr;
+
+public class SystemUpgradeControl : MonoBehaviour
+{
+    public TMP_Text isSystemUpgradeEnableResult;
+    public Toggle setSystemUpgradeStateToggle;
+
+    private void Start()
+    {
+        isSystemUpgradeEnableResult.text = SystemUpgradeControlMgr.instance.isSystemUpgradeEnable ? "Enabled" : "Disabled";
+        setSystemUpgradeStateToggle.onValueChanged.AddListener(SetSystemUpgradeState);
+    }
+
+    private void SetSystemUpgradeState(bool value)
+    {
+        SystemUpgradeControlMgr.instance.isSystemUpgradeEnable = value;
+        isSystemUpgradeEnableResult.text = SystemUpgradeControlMgr.instance.isSystemUpgradeEnable ? "Enabled" : "Disabled";
+    }
+}
