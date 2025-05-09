@@ -43,7 +43,7 @@ namespace YVR.Enterprise.Device.Sample
     
         private  void SetStartUpApp()
         {
-            KioskModeSettingMgr.instance.SetKioskModeSettingEnable(setStartUpAppInput.text,setStartUpAppToggle.isOn);
+            KioskModeSettingMgr.instance.SetStartupApp(setStartUpAppInput.text,setStartUpAppToggle.isOn);
             UpdateInfo();
         }
     
