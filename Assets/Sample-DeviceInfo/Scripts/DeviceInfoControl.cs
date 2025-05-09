@@ -1,12 +1,8 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using YVR.Core;
-using YVR.Enterprise.Device;
 
-namespace YVR.Enterprise.Device.Sample.DeviceInfo
+namespace YVR.Enterprise.Device.Sample
 {
     public class StorageInfo
     {
