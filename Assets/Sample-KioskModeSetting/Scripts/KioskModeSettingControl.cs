@@ -22,7 +22,7 @@ namespace YVR.Enterprise.Device.Sample
             getStartUpAppButton.onClick.AddListener(GetStartUpApp);
             UpdateInfo();
             appCloseAbility.onValueChanged.AddListener(ChangeAppCloseAbility);
-            configurationPermission.isOn = KioskModeSettingMgr.instance.configurationPermission;
+            configurationPermission.isOn = AppMgr.instance.configurationPermission;
             configurationPermission.onValueChanged.AddListener(ChangeConfigurationPermission);
         }
     
@@ -33,24 +33,24 @@ namespace YVR.Enterprise.Device.Sample
     
         private  void ChangeConfigurationPermission(bool value)
         {
-            KioskModeSettingMgr.instance.configurationPermission = value;
+            AppMgr.instance.configurationPermission = value;
         }
     
         private  void ChangeAppCloseAbility(bool value)
         {
-            KioskModeSettingMgr.instance.appCloseAbility = value;
+            AppMgr.instance.appCloseAbility = value;
         }
     
         private  void SetStartUpApp()
         {
-            KioskModeSettingMgr.instance.SetStartupApp(setStartUpAppInput.text,setStartUpAppToggle.isOn);
+            AppMgr.instance.SetStartupApp(setStartUpAppInput.text,setStartUpAppToggle.isOn);
             UpdateInfo();
         }
     
         public void UpdateInfo()
         {
-            getStartUpAppResult.text = KioskModeSettingMgr.instance.startupApp;
-            appCloseAbility.isOn = KioskModeSettingMgr.instance.appCloseAbility;
+            getStartUpAppResult.text = AppMgr.instance.startupApp;
+            appCloseAbility.isOn = AppMgr.instance.appCloseAbility;
         }
     }
 }

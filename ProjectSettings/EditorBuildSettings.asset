@@ -5,11 +5,8 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Device/Device.unity
-    guid: f3a86d8c0ab5afb4586fb76d4e640541
   - enabled: 1
-    path: Assets/Scripts/Entrance.unity
+    path: Assets/Entrance.unity
     guid: 231f11e2ebdf69c4bbc0e5cb5cd0dfe8
   - enabled: 1
     path: Assets/Sample-DeviceInfo/DeviceInfo.unity
