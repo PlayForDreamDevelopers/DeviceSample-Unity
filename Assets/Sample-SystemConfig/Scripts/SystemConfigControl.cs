@@ -74,6 +74,9 @@ namespace YVR.Enterprise.Device.Sample
 
         [Header("Rendering Mode")] public TMP_Text etfrEnableResult;
         public Toggle etfrEnableToggle;
+        
+        public TMP_Text etfrScreenEnableResult;
+        public Toggle etfrScreenEnableToggle;
 
         public TMP_Text _4KRenderingEnableResult;
         public Toggle _4KRenderingEnableToggle;
@@ -161,6 +164,10 @@ namespace YVR.Enterprise.Device.Sample
             _4KRenderingEnableResult.text = SystemConfigurationMgr.instance.Is4KRenderingMode() ? "true" : "false";
             _4KRenderingEnableToggle.isOn = SystemConfigurationMgr.instance.Is4KRenderingMode();
             _4KRenderingEnableToggle.onValueChanged.AddListener(Change4KRenderingEnable);
+            
+            etfrScreenEnableResult.text = SystemConfigurationMgr.instance.IsETFRScreenEnable() ? "true" : "false";
+            etfrScreenEnableToggle.isOn = SystemConfigurationMgr.instance.IsETFRScreenEnable(); 
+            etfrScreenEnableToggle.onValueChanged.AddListener(ChangeETFRScreenEnable);
         }
 
         private void ChangeGestureCtrlHomeIcon(bool value)
@@ -192,6 +199,12 @@ namespace YVR.Enterprise.Device.Sample
         {
             SystemConfigurationMgr.instance.Set4KRenderingMode(value);
             _4KRenderingEnableResult.text = SystemConfigurationMgr.instance.Is4KRenderingMode() ? "true" : "false";
+        }
+        
+        private void ChangeETFRScreenEnable(bool value)
+        {
+            SystemConfigurationMgr.instance.SetScreenETFRModeEnable(value);
+            etfrScreenEnableResult.text = SystemConfigurationMgr.instance.IsETFRScreenEnable() ? "true" : "false";
         }
 
         private void CreateSecurityArea() { SystemConfigurationMgr.instance.CreateSecurityArea(); }

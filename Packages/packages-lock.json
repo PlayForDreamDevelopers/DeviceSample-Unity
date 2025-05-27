@@ -86,6 +86,13 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.mobile.android-logcat": {
+      "version": "1.4.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.nuget.newtonsoft-json": {
       "version": "3.2.1",
       "depth": 1,
@@ -293,11 +300,11 @@
       "hash": "6354dc4faea4f4da59756a4d376f098334c3ae15"
     },
     "com.yvr.enterprise": {
-      "version": "https://github.com/PlayForDreamDevelopers/com.yvr.enterprise-mirror.git?path=/com.yvr.enterprise#version_0.1.0",
+      "version": "https://github.com/PlayForDreamDevelopers/com.yvr.enterprise-mirror.git?path=/com.yvr.enterprise#version_0.1.1",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "7599b2f4971ec9fda1ae87c7e0199d8ce506d407"
+      "hash": "5c3e8cedda3e57e051910a886fb660b1ebeb36da"
     },
     "com.yvr.interaction": {
       "version": "https://github.com/PlayForDreamDevelopers/com.yvr.interaction-mirror.git?path=/com.yvr.interaction#version_0.6.28",
