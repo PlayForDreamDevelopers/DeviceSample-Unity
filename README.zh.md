@@ -36,10 +36,46 @@ PFDM 企业版 Device Unity SDK 提供了企业版用户修改/查看设备信�
 
 ## 示例
 
-### 查询设备信息
+### 应用相关
 
-- 展现所能查询到的设备信息，及控制设备的音量/亮度
-  ![2025 03 09_141726030](https://github.com/user-attachments/assets/c1f3adf3-e354-43e3-907d-788d30ee435f)
+- 展示如何控制app相关设置
+  ![app](https://github.com/user-attachments/assets/5c7e1178-eb97-4582-9bfe-22f2c78402f3)
+
+### 按键相关
+
+- 展示如何控制手柄按键是否能使用，以及查看监控输入
+  ![controller button](https://github.com/user-attachments/assets/a1a686e4-fd29-40bb-86a0-f24e369ea7e3)
+
+### 设备控制
+
+- 展示设备控制
+  ![Device Control](https://github.com/user-attachments/assets/ce8d8551-79df-406a-917b-74d4d6a50e61)
+
+### 设备信息
+
+- 展现所能查询到的设备信息
+  ![Device Info](https://github.com/user-attachments/assets/bd09bda1-1305-4f28-98d0-2001aa4ee806)
+
+### 霸屏模式设置
+
+- 展示如何设置霸屏模式
+  ![Kiosk Mode](https://github.com/user-attachments/assets/291a7535-1faa-4f48-ba17-43889ec3b255)
+
+### 录屏控制
+
+- 展示如何使用录屏功能
+  ![recording](https://github.com/user-attachments/assets/72f695d7-5856-4466-bf6b-0caee5c6da32)
+
+### 系统控制
+
+- 展示如何控制系统相关设置
+  ![system config](https://github.com/user-attachments/assets/f0cfb008-aee9-455b-b8cf-d2eb11d0f560)
+
+### 系统更新设置
+
+- 展示如何控制系统更新相关设置
+  ![System Update](https://github.com/user-attachments/assets/cda6546f-678f-45e6-900b-4c48c1b88ef1)
+
 
 ## 要求
 

@@ -33,10 +33,47 @@ The PFDM Enterprise Device Unity SDK provides enterprise users with the ability 
 
 ## Samples
 
-### Query device information
+### Application Control
 
-- Displays the device information that can be queried and controls the device's volume/brightness
-  ![2025 03 09_141726030](https://github.com/user-attachments/assets/c1f3adf3-e354-43e3-907d-788d30ee435f)
+- Show how to control app settings
+  ![app](https://github.com/user-attachments/assets/5c7e1178-eb97-4582-9bfe-22f2c78402f3)
+
+### Key Related
+
+- Shows how to control whether the controller buttons can be used or not, and view the monitoring inputs
+  ![controller button](https://github.com/user-attachments/assets/a1a686e4-fd29-40bb-86a0-f24e369ea7e3)
+
+### Device Control
+
+- Show how to use device control
+  ![Device Control](https://github.com/user-attachments/assets/ce8d8551-79df-406a-917b-74d4d6a50e61)
+
+### Device Info
+
+- Displays the device information that can be queried
+  ![Device Info](https://github.com/user-attachments/assets/bd09bda1-1305-4f28-98d0-2001aa4ee806)
+
+### Kiosk Mode Setting
+
+- Show how to set the kiosk mode
+  ![Kiosk Mode](https://github.com/user-attachments/assets/291a7535-1faa-4f48-ba17-43889ec3b255)
+
+### Screen Recording Related
+
+- Shows how to use the screen recording feature
+  ![recording](https://github.com/user-attachments/assets/72f695d7-5856-4466-bf6b-0caee5c6da32)
+
+### System Control
+
+- Shows how to control the system's settings
+  ![system config](https://github.com/user-attachments/assets/f0cfb008-aee9-455b-b8cf-d2eb11d0f560)
+
+### System update settings
+
+- Shows how to control system update settings
+  ![System Update](https://github.com/user-attachments/assets/cda6546f-678f-45e6-900b-4c48c1b88ef1)
+
+
 
 ## Requirements
 
