@@ -1542,6 +1542,10 @@ PrefabInstance:
       propertyPath: m_LeftHand
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3357723978737216192, guid: 57c796ec56b36084a818e0f3a8ca66d5, type: 3}
+      propertyPath: trackingManager._trackingSpace
+      value: 1000426000
+      objectReference: {fileID: 0}
     - target: {fileID: 3562449337368869261, guid: 57c796ec56b36084a818e0f3a8ca66d5, type: 3}
       propertyPath: m_AttachTransform
       value: 
