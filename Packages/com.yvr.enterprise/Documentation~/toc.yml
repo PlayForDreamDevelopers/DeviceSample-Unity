@@ -1,0 +1,23 @@
+- name: Introduction
+  href: Introduction.md
+- name: Device Information and Control
+  href: Device.md
+  items:
+      - name: AppMgr
+        href: Devices/AppMgr.md
+      - name: ControllerButtonMgr
+        href: Devices/ControllerButtonMgr.md
+      - name: DeviceControlMgr
+        href: Devices/DeviceControlMgr.md
+      - name: DeviceInfoMgr
+        href: Devices/DeviceInfoMgr.md
+      - name: ScreenRecordingMgr
+        href: Devices/ScreenRecordingMgr.md
+      - name: SystemConfigurationMgr
+        href: Devices/SystemConfigurationMgr.md
+      - name: SystemUpgradeControlMgr
+        href: Devices/SystemUpgradeControlMgr.md
+- name: LBE
+  href: LBE.md
+- name: Camera Data
+  href: Camera.md

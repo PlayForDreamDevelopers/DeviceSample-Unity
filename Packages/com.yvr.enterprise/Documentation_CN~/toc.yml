@@ -1,0 +1,23 @@
+- name: 介绍
+  href: ./Introduction.md
+- name: 设备信息与控制
+  href: Device.md
+  items:
+      - name: 应用管理
+        href: Devices/AppMgr.md
+      - name: 手柄按键管理
+        href: Devices/ControllerButtonMgr.md
+      - name: 设备管理
+        href: Devices/DeviceControlMgr.md
+      - name: 设备信息管理
+        href: Devices/DeviceInfoMgr.md
+      - name: 录屏管理
+        href: Devices/ScreenRecordingMgr.md
+      - name: 系统配置管理
+        href: Devices/SystemConfigurationMgr.md
+      - name: 系统升级管理
+        href: Devices/SystemUpgradeControlMgr.md
+- name: 大空间接口
+  href: LBE.md
+- name: 相机数据
+  href: Camera.md

@@ -12,47 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2226f49630b27a41b028afb9af4b81d, type: 3}
   m_Name: YVRSDKSettingAsset
   m_EditorClassIdentifier: 
-  ignoreSDKSetting: 1
+  ignoreSDKSetting: 0
   appIDChecked: 0
   manifestTagInfosList:
-  - nodePath: /manifest/application
-    tag: meta-data
-    attrName: name
-    attrValue: com.yvr.application.mode
-    attrs:
-    - value
-    - vr_only
-    required: 1
-  - nodePath: /manifest/application
-    tag: meta-data
-    attrName: name
-    attrValue: yvr.sdk.version
-    attrs:
-    - value
-    - Unity_android-device.core_1.2.2|Unity_core_1.23.9|Unity_enterprise_0.0.6|Unity_interaction_0.6.28|Unity_utilities_0.15.10
-    required: 1
-  - nodePath: /manifest
-    tag: uses-feature
-    attrName: name
-    attrValue: yvr.software.quadviews
-    attrs:
-    - required
-    - false
-    required: 0
-  - nodePath: /manifest/application
-    tag: meta-data
-    attrName: name
-    attrValue: com.yvr.ossplash
-    attrs:
-    - value
-    - false
-    required: 1
-  - nodePath: /manifest
-    tag: uses-permission
-    attrName: name
-    attrValue: com.yvr.permission.USE_SCENE
-    attrs: []
-    required: 0
   - nodePath: /manifest
     tag: uses-feature
     attrName: name
@@ -63,83 +25,39 @@ MonoBehaviour:
     - required
     - true
     required: 1
-  - nodePath: /manifest
-    tag: uses-permission
+    modifyIfFound: 1
+  - nodePath: /manifest/application
+    tag: meta-data
     attrName: name
-    attrValue: com.yvr.permission.USE_ANCHOR_API
-    attrs: []
-    required: 0
-  - nodePath: /manifest
-    tag: uses-permission
-    attrName: name
-    attrValue: org.khronos.openxr.permission.OPENXR_SYSTEM
-    attrs: []
-    required: 1
-  - nodePath: /manifest
-    tag: uses-permission
-    attrName: name
-    attrValue: org.khronos.openxr.permission.OPENXR
-    attrs: []
-    required: 1
-  - nodePath: /manifest/queries
-    tag: provider
-    attrName: authorities
-    attrValue: org.khronos.openxr.runtime_broker;org.khronos.openxr.system_runtime_broker
-    attrs: []
-    required: 1
-  - nodePath: /manifest/queries
-    tag: intent/action
-    attrName: name
-    attrValue: org.khronos.openxr.OpenXRRuntimeService
-    attrs: []
-    required: 1
-  - nodePath: /manifest/queries
-    tag: intent/action
-    attrName: name
-    attrValue: org.khronos.openxr.OpenXRApiLayerService
-    attrs: []
-    required: 1
-  - nodePath: /manifest
-    tag: uses-permission
-    attrName: name
-    attrValue: com.yvr.permission.EYE_TRACKING
-    attrs: []
-    required: 0
-  - nodePath: /manifest
-    tag: uses-feature
-    attrName: name
-    attrValue: yvr.software.eye_tracking
+    attrValue: com.yvr.application.mode
     attrs:
-    - required
-    - false
-    required: 0
+    - value
+    - vr_only
+    required: 1
+    modifyIfFound: 1
   - nodePath: /manifest/application/activity/intent-filter
     tag: category
     attrName: name
     attrValue: org.khronos.openxr.intent.category.IMMERSIVE_HMD
     attrs: []
     required: 1
-  - nodePath: /manifest
-    tag: uses-feature
+    modifyIfFound: 1
+  - nodePath: /manifest/application
+    tag: meta-data
     attrName: name
-    attrValue: yvr.software.largespace
+    attrValue: yvr.sdk.version
     attrs:
-    - required
-    - false
-    required: 0
-  - nodePath: /manifest
-    tag: uses-permission
+    - value
+    - Unity_android-device.core_1.2.4|Unity_core_1.16.3|Unity_enterprise_0.1.6|Unity_interaction_0.6.16|Unity_utilities_0.14.14
+    required: 1
+    modifyIfFound: 1
+  - nodePath: /manifest/application
+    tag: meta-data
     attrName: name
-    attrValue: com.yvr.handtracking.permission.HAND_TRACKING
-    attrs: []
-    required: 0
-  - nodePath: /manifest
-    tag: uses-feature
-    attrName: name
-    attrValue: yvr.software.handtracking
+    attrValue: com.yvr.ossplash
     attrs:
-    - required
+    - value
     - false
-    required: 0
-  packingAssetInfoList: []
-  toDeletePackingAssetList: []
+    required: 1
+    modifyIfFound: 1
+  assetInfoList: []
