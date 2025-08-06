@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using YVR.Core;
 using YVR.Enterprise.Device;
+using YVR.Utilities;
 
 namespace YVR.Enterprise.Device.Sample
 { 
@@ -77,6 +78,7 @@ namespace YVR.Enterprise.Device.Sample
         
         public Button startWifiUIButton;
         public Button startBtUIButton;
+        public Button openDisplayPage;
         
         void Start()
         {
@@ -110,6 +112,14 @@ namespace YVR.Enterprise.Device.Sample
             
             startWifiUIButton.onClick.AddListener(StartWifiUI);
             startBtUIButton.onClick.AddListener(StartBtUI);
+            openDisplayPage.onClick.AddListener(OpenDisplayPage);
+        }
+
+        private void OpenDisplayPage()
+        {
+            this.Debug("sss before OpenDisplayPage");
+           AppMgr.instance.OpenHomeSettings("yvrsettings://settingsview/YVR.Settings.DisplaySettingsView"); 
+           this.Debug("sss after OpenDisplayPage");
         }
 
         private void StartBtUI()
