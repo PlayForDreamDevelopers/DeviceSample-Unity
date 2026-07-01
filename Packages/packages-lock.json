@@ -290,14 +290,14 @@
       "hash": "9e5e0f60d2546570596dc3dcab47051819329217"
     },
     "com.yvr.core": {
-      "version": "https://github.com/PlayForDreamDevelopers/com.yvr.core-mirror.git?path=/com.yvr.core#version_1.30.4",
+      "version": "https://github.com/PlayForDreamDevelopers/com.yvr.core-mirror.git?path=/com.yvr.core#version_1.30.6",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.yvr.utilities": "0.15.14",
         "com.unity.xr.management": "3.0.4"
       },
-      "hash": "d00e4d5362dbdb7d3038c65c2045b78f54a39b8b"
+      "hash": "e9dde1f7fb28adc588392c40636684a9a6567836"
     },
     "com.yvr.enterprise": {
       "version": "https://github.com/PlayForDreamDevelopers/com.yvr.enterprise-mirror.git?path=/com.yvr.enterprise#version_0.1.14",
